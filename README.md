@@ -7,7 +7,6 @@
 
 1.自己用反编译软件写了一个拥有基本信息的PE Header（已由16进制转为ASCII），存在一个txt档案里
 
-
 2. 写代码将数据集里每个恶意程序的.byte文件中已有的section将其转成ASCII（如上方的PE 头格式差不多） 
 补充信息：.byte文件里是包含virtual address，和每行以16进制形式表达的二进制代码、
 （文件名：0A32eTdBKayjCWhZqDOQ.bytes）

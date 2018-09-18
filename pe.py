@@ -11,7 +11,7 @@ def readfile(res_f):
 			arr = f.split()
 			for i in range(len(arr)):
 				if(i != 0):
-					res_f.write("%s" % binascii.b2a_hex(arr[i]))
+					res_f.write("%s" % codecs.decode(arr[i],"hex"))
 			res_f.write("\n")
 	return res_f
 

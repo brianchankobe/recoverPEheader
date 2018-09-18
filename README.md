@@ -20,7 +20,6 @@ B.然后转成真正属于这个二进制代码的ASCII， 方便与步骤一的
 
 3.完成以上将16进制表达的二进制代码转成ASCII之后，跟第一步的PE header 的ASCII拼接，再放进IDA pro进行反编译，输出EXE文件
 
-相关代码存放位置： https://github.com/brianchankobe/recoverPEheader.git
 
 In the github, there are a word document about this content's specific content which can download it.
 
